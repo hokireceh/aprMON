@@ -1,1 +1,58 @@
-const _0x1543b3=_0x10d6;(function(_0x55362a,_0x285e75){const _0x3d36ec=_0x10d6,_0x2b0e00=_0x55362a();while(!![]){try{const _0x4d3a30=-parseInt(_0x3d36ec(0x102))/(-0x690+-0x17f8+0x1e89*0x1)+-parseInt(_0x3d36ec(0xe8))/(0x1ac4+-0x1338+-0x78a)*(-parseInt(_0x3d36ec(0x11d))/(0x1*0xafb+-0x56d+-0x58b))+-parseInt(_0x3d36ec(0xda))/(0x2611+0x2480+0x5*-0xee9)+-parseInt(_0x3d36ec(0x113))/(0xe3b+0x2*-0xb93+-0xb*-0xd0)*(-parseInt(_0x3d36ec(0x114))/(0xdb5*-0x1+0x123a*0x1+-0x47f))+parseInt(_0x3d36ec(0xe7))/(-0x26c3+-0x80b*0x1+0x2ed5)*(parseInt(_0x3d36ec(0xd9))/(0x1b7*-0xb+-0x132d*0x1+0x2612))+-parseInt(_0x3d36ec(0xf1))/(0x1*0xe95+-0xf8c+0x100)+-parseInt(_0x3d36ec(0xed))/(0xfa3+0x1*-0x283+-0x19*0x86);if(_0x4d3a30===_0x285e75)break;else _0x2b0e00['push'](_0x2b0e00['shift']());}catch(_0x5918f5){_0x2b0e00['push'](_0x2b0e00['shift']());}}}(_0x26c5,-0x5*-0x10c26+-0x3dde9*0x2+-0x2*-0x3e1a9),require(_0x1543b3(0xeb))[_0x1543b3(0xea)]());const {ethers}=require(_0x1543b3(0xfa)),fs=require('fs'),abi=require(_0x1543b3(0x105)+_0x1543b3(0x101)),provider=new ethers[(_0x1543b3(0x121))+(_0x1543b3(0xe0))](process[_0x1543b3(0xe4)][_0x1543b3(0x118)]),wallet=new ethers[(_0x1543b3(0x109))](process[_0x1543b3(0xe4)][_0x1543b3(0x11b)+'Y'],provider),contract=new ethers[(_0x1543b3(0x103))](process[_0x1543b3(0xe4)][_0x1543b3(0xde)+_0x1543b3(0x120)],abi,wallet);function _0x10d6(_0x132748,_0xb9b712){const _0x1f39ce=_0x26c5();return _0x10d6=function(_0x9b33e5,_0x37eb30){_0x9b33e5=_0x9b33e5-(-0x11b1+-0x5c6+0x2*0xc28);let _0x221121=_0x1f39ce[_0x9b33e5];return _0x221121;},_0x10d6(_0x132748,_0xb9b712);}async function redeemFromFile(){const _0x99db7d=_0x1543b3,_0x1fd2d0={'VFPYG':_0x99db7d(0xe9)+_0x99db7d(0xfe),'BqqzO':_0x99db7d(0x11f)+_0x99db7d(0x111)+_0x99db7d(0xf2)+'.','ZGNMZ':_0x99db7d(0xf5),'lFxXj':function(_0x1ccd1d,_0x42eb60){return _0x1ccd1d(_0x42eb60);},'AzINX':function(_0x674001,_0x54b5f3){return _0x674001>_0x54b5f3;}},_0x31bcec=_0x1fd2d0[_0x99db7d(0x108)];if(!fs[_0x99db7d(0xfc)](_0x31bcec)){console[_0x99db7d(0x10c)](_0x1fd2d0[_0x99db7d(0xfb)]);return;}const _0x166906=fs[_0x99db7d(0xe6)+'nc'](_0x31bcec,_0x1fd2d0[_0x99db7d(0x115)])[_0x99db7d(0xec)]('\x0a')[_0x99db7d(0xf4)](_0x47fa89=>_0x47fa89[_0x99db7d(0x10d)]())[_0x99db7d(0x106)](_0x36d817=>_0x36d817!==''),_0x45cf3c=[];for(const _0x2983ee of _0x166906){try{const _0x5e43a1=await contract[_0x99db7d(0xfd)+_0x99db7d(0x112)+'st'](_0x1fd2d0[_0x99db7d(0xee)](BigInt,_0x2983ee),wallet[_0x99db7d(0xe5)]);if(_0x1fd2d0[_0x99db7d(0xdc)](_0x5e43a1,0x0n)){console[_0x99db7d(0x10c)](_0x99db7d(0xf6)+_0x99db7d(0x100)+'d\x20'+_0x2983ee+_0x99db7d(0x110));const _0x5fb483=await contract[_0x99db7d(0x11a)](_0x1fd2d0[_0x99db7d(0xee)](BigInt,_0x2983ee),wallet[_0x99db7d(0xe5)]);console[_0x99db7d(0x10c)](_0x99db7d(0xf3)+_0x99db7d(0xf0)+_0x5fb483[_0x99db7d(0x104)]),await _0x5fb483[_0x99db7d(0x117)](),console[_0x99db7d(0x10c)](_0x99db7d(0xff)+_0x99db7d(0x10a)+_0x99db7d(0xef)+_0x2983ee);}else console[_0x99db7d(0x10c)](_0x99db7d(0xf9)+_0x99db7d(0xf7)+_0x2983ee+(_0x99db7d(0x119)+_0x99db7d(0xe3))),_0x45cf3c[_0x99db7d(0xe2)](_0x2983ee);}catch(_0x418a8){console[_0x99db7d(0xe1)](_0x99db7d(0x11c)+_0x99db7d(0x107)+_0x2983ee+':\x20'+_0x418a8[_0x99db7d(0x10f)]),_0x45cf3c[_0x99db7d(0xe2)](_0x2983ee);}}fs[_0x99db7d(0xdf)+_0x99db7d(0x11e)](_0x31bcec,_0x45cf3c[_0x99db7d(0x10b)]('\x0a')),console[_0x99db7d(0x10c)](_0x99db7d(0xdd)+_0x99db7d(0x116)+_0x99db7d(0xdb)+_0x99db7d(0xf8)+_0x45cf3c[_0x99db7d(0x10e)]);}redeemFromFile();function _0x26c5(){const _0x10a28d=['agi...','env','address','readFileSy','21sdjDxc','5138vgMcUo','requestId.','config','dotenv','split','2061760xFEApZ','lFxXj','estId\x20','m\x20sent:\x20','2894031tRsysc','d\x20disimpan','🚀\x20TX\x20redee','map','utf-8','✅\x20Redeemin','sa\x20redeem\x20','a:\x20','⏳\x20Belum\x20bi','ethers','BqqzO','existsSync','claimableR','txt','🎉\x20Sukses\x20r','g\x20requestI','MON.json','219364CnGBWw','Contract','hash','../abi/apr','filter','deem\x20ID\x20','VFPYG','Wallet','edeem\x20requ','join','log','trim','length','message','...','a\x20requestI','edeemReque','1135PLyrZm','5448CfibXs','ZGNMZ','equestId.t','wait','RPC_URL',',\x20tunggu\x20l','redeem','PRIVATE_KE','❌\x20Error\x20re','729WRtoVY','ync','📭\x20Tidak\x20ad','TRACT','JsonRpcPro','846952sxrJkY','222964nBmKUb','xt,\x20tersis','AzINX','📝\x20Update\x20r','APRMON_CON','writeFileS','vider','error','push'];_0x26c5=function(){return _0x10a28d;};return _0x26c5();}
+import dotenv from 'dotenv';
+import fs from 'fs';
+import { ethers } from 'ethers';
+import abi from '../abi/aprMON.json' assert { type: 'json' };
+
+dotenv.config();
+
+const provider = new ethers.JsonRpcProvider(process.env.RPC_URL);
+const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
+const contract = new ethers.Contract(process.env.APRMON_CONTRACT, abi, wallet);
+
+async function redeemFromFile() {
+  const path = 'requestId.txt';
+
+  if (!fs.existsSync(path)) {
+    console.log('📭 Tidak ada file requestId.txt');
+    process.exit(0);
+  }
+
+  const ids = fs.readFileSync(path, 'utf-8')
+    .split('\n')
+    .map(line => line.trim())
+    .filter(Boolean);
+
+  if (ids.length === 0) {
+    console.log('📭 File requestId.txt kosong.');
+    process.exit(0);
+  }
+
+  const remaining = [];
+
+  for (const id of ids) {
+    try {
+      const claimable = await contract.claimableRedeemRequest(BigInt(id), wallet.address);
+      if (claimable > 0n) {
+        console.log(`✅ Redeeming requestId ${id}...`);
+        const tx = await contract.redeem(BigInt(id), wallet.address);
+        console.log(`🚀 TX redeem sent: ${tx.hash}`);
+        await tx.wait();
+        console.log(`🎉 Sukses redeem requestId ${id}`);
+      } else {
+        console.log(`⏳ Belum bisa redeem ${id}, tunggu maneh...`);
+        remaining.push(id);
+      }
+    } catch (err) {
+      console.error(`❌ Error redeem ID ${id}: ${err.message || err}`);
+      remaining.push(id);
+    }
+  }
+
+  fs.writeFileSync(path, remaining.join('\n'));
+  console.log(`📝 requestId.txt diupdate, tersisa: ${remaining.length}`);
+}
+
+redeemFromFile().catch((err) => {
+  console.error('❌ ERROR UTAMA:', err.message || err);
+  process.exit(1);
+});
